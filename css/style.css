@@ -4,6 +4,7 @@ body {
   color: black;
   font-family: "PT Sans", Geneva;
   font-style: normal;
+  background-size: 1200px auto;
 }
 h2 {
   font-family: "Cuprum", Geneva;
@@ -14,4 +15,217 @@ h3 {
   font-family: "Cuprum", Geneva;
   font-size: 30px;
   line-height: 24px;
+}
+.main-header {
+  margin-bottom: 60px;
+  outline: 1px solid #71cbff;
+}
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  outline: 1px solid #a7905b;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.indexlogo {
+  width: 220px;
+  float: left;
+  margin-right: 10px;
+  outline: 1px solid #a7905b;
+}
+.search-top {
+  width: 240px;
+  float: left;
+  margin-right: 10px;
+  outline: 1px solid #a7905b;
+}
+.order-top {
+  float: right;
+  width: 460px;
+  outline: 1px solid #a7905b;
+}
+.user-top {
+  margin-bottom: 45px;
+  outline: 1px solid black;
+}
+.store-description {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  outline: 1px solid #a7905b;
+}
+.top-contacts {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  outline: 1px solid #a7905b;
+}
+.user-block {
+  width: 300px;
+  float: right;
+  outline: 1px solid #a7905b;
+}
+.user-mid {
+  margin-bottom: 45px;
+  outline: 1px solid black;
+}
+.main-navigation {
+  width: 940px;
+  margin-bottom: 60px;
+  outline: 1px solid black;
+}
+.main-tiles {
+  width: 940px;
+
+  outline: 1px solid #a7905b;
+}
+.tile {
+  display: inline-block;
+  width: 298px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  outline: 1px solid blue;
+}
+.slider {
+  float: left;
+  width: 622px;
+  min-height: 261px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  outline: 1px solid blue;
+}
+
+.tile:nth-of-type(3n) {
+  margin-right: 0px;
+}
+.tile:nth-child(n+5) {
+  margin-right: 0px;
+}
+.pop-products {
+  margin-top: 53px;
+  outline: 1px solid black;
+}
+.pop-head {
+  width: 940px;
+  margin-bottom: 20px;
+  outline: 1px solid black;
+}
+.products .producers {
+  width: 940px;
+
+  outline: 1px solid black;
+}
+.product {
+  width: 220px;
+  min-height: 320px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  outline: 1px solid blue;
+}
+.pop-products .product:nth-of-type(4n) {
+  margin-right: 0px;
+}
+.producer {
+  width: 220px;
+  min-height: 145px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  outline: 1px solid blue;
+}
+.producer:nth-of-type(4n) {
+  margin-right: 0px;
+}
+.pop-producers {
+  padding-bottom: 70px;
+  outline: 1px solid black;
+}
+.services {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  outline: 1px solid black;
+}
+.bonuses-menu {
+  width: 240px;
+  margin-top: 75px;
+  margin-right: 80px;
+  float: left;
+  outline: 1px solid blue;
+}
+.bonuses-content {
+  width: 300px;
+  margin-right: 80px;
+  float: left;
+  outline: 1px solid blue;
+}
+.about-company {
+  padding-top: 80px;
+  outline: 1px solid black;
+}
+.company {
+  width: 540px;
+  float: left;
+  margin-right: 100px;
+  outline: 1px solid blue;
+}
+.main-contacts {
+  width: 300px;
+  float: right;
+  outline: 1px solid blue;
+}
+.logo-address {
+  width: 380px;
+  margin-right: 10px;
+  float: left;
+  outline: 1px solid blue;
+}
+.main-footer {
+
+}
+.footer-up {
+  padding-bottom: 50px;
+  outline: 1px solid black;
+}
+.breadcrumbs-white {
+  width: 550px;
+  float: right;
+  outline: 1px solid blue;
+}
+.breadcrumbs-yellow {
+  width: 540px;
+  float: right;
+  outline: 1px solid blue;
+}
+.footer-down {
+  padding-top: 35px;
+  outline: 1px solid black;
+}
+.footer-company {
+  width: 230px;
+  float: left;
+  margin-right: 160px;
+  outline: 1px solid blue;
+}
+.footer-social {
+  width: 230px;
+  float: left;
+  margin-right: 20px;
+  outline: 1px solid blue;
+}
+.footer-feedback {
+  width: 140px;
+  float: left;
+  margin-right: 20px;
+  outline: 1px solid blue;
+}
+.footer-copyright {
+  width: 140px;
+  float: right;
+  outline: 1px solid blue;
 }
